@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+.joinUsPageBannerBox {
+	height: 95px;
+	*height:78px;
+	background-color: #333;
+	box-sizing: border-box;
+	padding-top: 17px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.joinUsTopBanner {
+	margin-right: 90px;
+}
+
+.joinUsBanner li.active {
+	background-color: #6b7177;
+	color: #fff;
+}
+
+.joinUsTopBanner li {
+	margin-left: 50px;
+	line-height: 61px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+.joinUsTopBanner li > a {
+	color: #fff;
+}
+
+.joinUsTopBanner li > a.active {
+	color: #ff9f00;
+}
+
+.joinUsTopBanner li.join a img,
+.joinUsTopBanner li.join a span {
+	vertical-align: middle;
+}
+
+.joinUsTopBanner li.join a  img {
+	margin-right:5px;
+}
+
+
+.joinUsSwiperBox {
+	width: 100%;
+	height: 350px;
+	text-align:center;
+	margin-top: 95px;
+}
+
+.joinUsSwiperBox img {
+	width: 100%;
+	height: 350px;
+	vertical-align: middle;
+}
+
+.logoBox {
+	margin-left: 35px;
+}
+
+.logoBox img {
+	width: 120px;
+}
+
+.joinUsContentBox {
+	background-color: #e6e6e6;
+	padding-top: 21px;
+	padding-bottom: 40px;
+}
+
+.joinUsBanner {
+	width: 258px;
+	box-sizing: border-box;
+	background-color: #bbb;
+	position: relative;
+	float: left;
+	top: -100px;
+}
+
+.joinUsBanner li {
+	height: 60px;
+	line-height: 60px;
+	text-align:center;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	border-bottom: 1px solid #c2c2c2;
+}
+
+.joinUsBanner li:nth-child(1) {
+	background-color: #6b7177;
+	position: relative;
+}
+
+.joinUsBanner li:last-child {
+	border-bottom: none;
+}
+
+.joinUsBanner li.joinUs {
+	background: #6b7177;
+	color: #fff;
+}
+
+.joinUsBanner li a {
+	color: #fff;
+}
+
+.joinPos {
+	position: relative;
+}
+
+.joinUsTextBox {
+	margin-left: 288px;
+	margin-right: 35px;
+	background-color: #fff;
+	padding: 37px 60px 60px;
+}
+
+.joinUsText {
+	font-family: "微软雅黑";
+	margin-bottom: 80px;
+}
+
+.joinUsText:last-child {
+	margin-bottom: 0;
+}
+
+
+.joinUsText .title {
+	font-size: 30px;
+}
+
+.joinUsText .times {
+	font-size: 18px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.joinUsText .times .cale-id,
+.joinUsText .times .time-id {
+	margin-left: 20px;
+}
+
+.joinUsText .jobs,
+.joinUsText .office {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.joinUsText .office {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.joinUsText .resume {
+	font-size: 18px;
+}
+.joinUsText .resume > span {
+	color: #0099cc;
+	margin-left: 3px;
+}

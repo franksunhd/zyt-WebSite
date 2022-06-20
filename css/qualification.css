@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+.qua-ContentBox {
+	height: 775px;
+	background-color: #ccc;
+	box-sizing: border-box;
+	padding-top: 44px;
+	padding-bottom: 67px;
+	margin-top: 95px;
+	*margin-top: 135px;
+}
+
+.qua-Content {
+	*width: 814px;
+	height: 620px;
+	*height: 660px;
+	background-color: #e8e8e8;
+	box-sizing: border-box;
+	padding:40px 235px 0;
+	font-size: 16px;
+}
+
+.qua-Content-top {
+	height: 250px;
+	*height:290px;
+	padding-bottom: 25px;
+	*padding-bottom: 0;
+}
+
+.qua-Content-top img {
+	height: 215px;
+}
+
+.qua-Content-top p,
+.qua-Content-bottom p {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.qua-Content-bottom img {
+	height: 215px;
+	margin-right: 10px;
+}
+
+.qua-Content-bottom img:last-child {
+	margin-right: 0;
+}
+
+.quafooterBox {
+	height: 130px;
+	*height: 90px;
+	background-color: #393939;
+	padding-top: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.quaPageBottom {
+	font-size: 0;
+}
+
+.quaPageBottom a {
+	font-size: 15px;
+    padding: 0 20px 0 20px;
+}

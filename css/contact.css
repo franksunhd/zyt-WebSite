@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.contactIcons {
+	text-align:center;
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.contactIcon-l > img,
+.contactIcon-l > span{
+	vertical-align: middle;
+	font-size: 24px;
+	color: #fff;
+}
+
+.contactIcon-l > span {
+	margin-left: 15px;
+}
+
+.contactIcon-l {
+	margin-right: 50px;
+}
+
+.contactIcons .contactIcon-l:last-child{
+	margin-right: 0;
+}
+
+.contactIcons .contactIcon-l.con > span{
+	width: 300px;
+	height: 50px;
+	display: inline-block;
+}

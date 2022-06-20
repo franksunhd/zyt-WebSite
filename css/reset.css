@@ -1,0 +1,59 @@
+@charset "utf-8";
+html,body{height: 100%;}
+body { height: 100%;background:#fff;font:12px "Microsoft Yahei",Arial,Tahoma, Helvetica,\5b8b\4f53, sans-serif; }
+html,body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,object,code,em,span,var,legend,button,input,textarea,th,td,a,img,header,footer,nav,aside,audio,datalist,section { margin:0;padding:0;border:0;outline:0; }/*清除内外边距*/
+h1,h2,h3,h4,h5,h6 { font-weight:normal;font-size:100%; }/*设置默认字体*/
+:focus { outline:0; }
+ul,ol,ul li,ol li { list-style: none; }/*重置列表*/
+address,caption,cite,em,code,dfn,th,var { font-style:normal;font-weight:normal; }
+form label { cursor:pointer; }
+input,button,select,textarea { font-family:inherit;font-size:100%;outline:none; }
+textarea { resize:none }
+input { vertical-align:middle; }
+img { border:0; }/*重置图片元素*/
+table { border-collapse:collapse;border-spacing: 0; }/*重置表格*/
+button,input[type="reset"],input[type="button"],input[type="submit"] { line-height:normal !important; }
+a,a:hover,a:active,a:link { text-decoration:none;}
+/*a:hover { text-decoration:underline; }*/
+input { _filter:chroma(color=#000000); }
+.clearfix:after { clear:both;content:".";display:block;font-size:0;height:0;visibility:hidden; }
+.clearfix:after { _zoom:1; *zoom:1;}
+.overflow { overflow:hidden; _zoom:1; }
+.clear { clear:both; height:0;font-size:0; overflow:hidden; }
+
+input:-webkit-autofill,textarea:-webkit-autofill,select:-webkit-autofill {-webkit-box-shadow: 0 0 0 1000px transparent inset;}
+input[type=text]:focus, input[type=password]:focus, textarea:focus {-webkit-box-shadow: 0 0 0 1000px transparent inset;}
+
+.middle:before{
+	content:"" ;
+	background: #dac;
+	display: inline-block;
+	height: 100%;
+	visibility: hidden;
+	vertical-align:middle;
+	width: 0px;
+}
+
+.fl {float: left;}
+.fr {float: right;}
+
+.ml23 {margin-left: 23px;}
+.ml23 {margin-left: 23px;}
+
+.mt13 {margin-top: 13px;}
+.mt30 {margin-top: 30px;}
+.mt60 {margin-top: 60px;}
+
+.mb100 {margin-bottom: 100px;}
+.mb40 {margin-bottom: 40px;}
+
+.mr6 {margin-right: 6px;}
+.mr0 {margin-right: none;}
+
+.tc {text-align: center;}
+.tl {text-align: left;}
+.tr {text-align: right;}
+
+.f30 {font-size: 30px;}
+.f20 {font-size: 20px;}
+.f18 {font-size: 18px;}

@@ -1,0 +1,273 @@
+@charset "utf-8";
+.reg-SwiperBoxBg {
+	position: relative;
+}
+
+.logoBox {
+	width: 185px;
+	height: 61px;
+	display: inline-block;
+	margin: 25px 0 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.swiper-container {
+	width: 100%;
+}
+
+.swiperIcon {
+	position: absolute;
+	bottom: 0;
+	right: 160px;	
+}
+
+.swiperIcon img {
+	font-size: 0px;
+	vertical-align: bottom;
+	width: 125px;
+	height: 160px;
+}
+
+.swiper-wrapper,
+.swiper-slide {
+	width:100%;
+	height: auto !important; 
+	background-color: #eee;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+}
+
+.swiper-slide a img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.pagination {
+	width: 100%;
+	position: absolute;
+	z-index: 20;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 12px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: rgba(0,0,0,0.6);
+    border-radius: 15px;
+    border: 0 none;
+}
+.swiper-active-switch {
+    width: 26px;
+    margin: 0 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.regContentBox {
+	height: 600px;
+	*height: 535px;
+	background-color: #262626;
+	box-sizing: border-box;
+	padding-top: 65px;
+}
+
+.regContentBox h2.title {
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+.regContent .regCon {
+	width: 189px;
+	height: 395px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.regContent .regCon.regCon1 {
+	background-image: url('../img/reg/pic1.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.regContent .regCon.regCon2 {
+	background-image: url('../img/reg/pic2.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.regContent .regCon.regCon3 {
+	background-image: url('../img/reg/pic3.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.regContent .regCon.regCon4 {
+	background-image: url('../img/reg/pic4.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.regContent .regCon.regCon5 {
+	background-image: url('../img/reg/pic5.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.regContent .regCon.regCon6 {
+	margin-right: 0;
+	background-image: url('../img/reg/pic6.png');
+}
+
+.regContent .regCon > p {
+	width: 135px;
+	line-height: 1.5;
+	text-align: left;
+	position: absolute;
+	bottom: 10px;
+	left: 35px;
+	right: 10px;
+	height: 120px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.regContent .regCon.regCon1 > p,
+.regContent .regCon.regCon3 > p,
+.regContent .regCon.regCon4 > p,
+.regContent .regCon.regCon6 > p{
+	*height: 95px;
+	box-sizing: border-box;
+	padding-top: 23px;
+}
+
+/*监管详情*/
+.RegulatoryBoxBg {
+	height: 95px;
+	*height: 78px;
+	box-sizing: border-box;
+	padding-top: 17px;
+	background-color: #333;
+}
+
+.logoBo a {
+	display: inline-block;
+}
+
+.logoBo img,
+.logoBox img {
+	width:100px;
+}
+
+.regTopBanner {
+	margin-right: 50px;
+}
+
+.regTopBanner a {
+	color: #fff;
+	font-size: 16px;
+	line-height: 64px;
+	margin-left: 40px;
+}
+
+.regTopBanner a.active {
+	color: #ff9f00;
+}
+
+.RegulatoryBoxBg {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.Regulatory-textBox {
+	background-color: #ccc;
+	padding-top: 45px;
+	padding-bottom: 80px;
+	margin-top: 95px;
+}
+
+.Regulatory-text {
+	*width: 980px;
+	box-sizing: border-box;
+	background-color: #fff;
+	padding: 80px 80px 110px 90px;
+}
+
+.Regulatory-text .title {
+	text-align: center;
+	font-size: 26px;
+	font-family: "微软雅黑";
+	color: #333;
+}
+
+.Regulatory-text .title-res {
+	text-align: center;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #333;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.Regulatory-text .title-resx {
+	text-align: right;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #333;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.Regulatory-text > p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.Regulatory-text > p.text-indent {
+	text-indent: 2em;
+}
+
+.Regulatory-text > p.text-margin {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.Regulatory-text .text-right {
+	text-align: right;
+	margin-right: 50px;
+}
+
+.Regulatory-text .text-url {
+	margin-top: 158px;
+}
+
+.Regulatory-text .text-url > a {
+	color: #007AFF;
+}
+
+.Regulatory-text .text-url > a:hover {
+	color: #0c63f1;
+}
+
+.Regulatory-text .text-url > a:active {
+	color: dodgerblue;
+}
